@@ -77,7 +77,7 @@ results = vec.search(relevant_question, limit=3, predicates=predicates)
 # --------------------------------------------------------------
 
 # September — Returning results
-time_range = (datetime(2024, 9, 1), datetime(2024, 9, 30))
+time_range = (datetime(2024, 11, 1), datetime(2024, 12, 30))
 results = vec.search(relevant_question, limit=3, time_range=time_range)
 
 # August — Not returning any results
